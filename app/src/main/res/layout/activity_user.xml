@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:layout_height="match_parent">
+
+    <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/ivUser"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            tools:text="This is username"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/label_email"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                tools:text="email@email.com"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/label_phone"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="wrap_content"
+                tools:text="+380934445566"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TicTrac</string>
+    <string name="label_phone">Phone:</string>
+    <string name="label_email">Email:</string>
+</resources>
